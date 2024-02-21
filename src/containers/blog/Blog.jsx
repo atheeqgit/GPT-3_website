@@ -32,7 +32,7 @@ const Blog = () => {
       transition={{ staggerChildren: 0.2 }}
     >
       <motion.h1 className="gradient__text" variants={bottomAnimate}>
-        A lot is happening, We are blogging about it.
+        A lot is happening, We are blogging about it..
       </motion.h1>
       <motion.div className="blogs-div" variants={bottomAnimate}>
         <div className="main-blog">
