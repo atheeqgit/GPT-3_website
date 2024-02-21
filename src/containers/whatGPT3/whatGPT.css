@@ -1,0 +1,80 @@
+.whatGPT-section {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--wgpt-color);
+}
+.whatGPT-section .feature-top {
+  margin: 4rem 0;
+}
+.whatGPT-section .feature-top .feature {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.whatGPT-section .feature-top .feature .feature-title {
+  flex: 0.5;
+}
+.whatGPT-section .feature-top .feature .feature-para {
+  flex: 1.5;
+}
+
+.feature-middle {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 0;
+}
+.feature-middle h1 {
+  width: 50%;
+  font-size: 3.4rem;
+  font-weight: 800;
+}
+.feature-middle p {
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: var(--color-subtext);
+}
+
+.whatGPT-section .feature-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 4rem;
+  margin: 4rem 0;
+}
+.whatGPT-section .feature-bottom .feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  flex: 1;
+}
+
+@media screen and (max-width: 850px) {
+  .whatGPT-section .feature-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 650px) {
+  .whatGPT-section .feature-top .feature {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .feature-middle h1 {
+    width: 100%;
+    font-size: 3.4rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .feature-middle p {
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: var(--color-subtext);
+  }
+}

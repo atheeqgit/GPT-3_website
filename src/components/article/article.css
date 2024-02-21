@@ -1,0 +1,27 @@
+.article-component {
+  background-color: var(--color-footer);
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.article-component a {
+  margin: 2rem;
+}
+.article-component img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.article-component .article-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.article-component .article-content .article-titles {
+  padding: 2rem;
+}
+.article-component .article-content .article-titles p {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}

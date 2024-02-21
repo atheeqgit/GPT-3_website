@@ -1,0 +1,123 @@
+header {
+  padding: 2rem 5rem;
+  padding-top: 8rem;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+header h1 {
+  font-size: 5rem;
+  line-height: 6rem;
+  font-weight: 800;
+  margin-bottom: 3rem;
+  width: 90%;
+}
+header p {
+  color: var(--color-text);
+  font-weight: 500;
+
+  line-height: 2.5rem;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.ai-img {
+  width: 45%;
+}
+
+.header-inputs {
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.header-inputs input {
+  padding: 1rem 2rem;
+  width: 60%;
+  height: 5rem;
+  border: none;
+  outline: none;
+  font-size: 1.6rem;
+  font-family: inherit;
+  background-color: var(--color-blog);
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+input::placeholder {
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 600;
+  /* color: aliceblue; */
+}
+.header-inputs .button {
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  height: 5rem;
+}
+
+.header-people {
+  display: flex;
+  align-items: center;
+}
+.header-people p {
+  font-size: 1.5rem;
+  color: var(--white-color);
+  margin: 0 1rem;
+}
+
+@media screen and (max-width: 1100px) {
+  header {
+    flex-direction: column;
+    padding: 2rem 6rem;
+    padding-top: 6rem;
+  }
+  header h1 {
+    width: 100%;
+    padding-top: 3rem;
+    font-size: 4.8rem;
+    text-align: left;
+  }
+  header p {
+    font-size: 1.6rem;
+    text-align: left;
+  }
+  .header-inputs {
+    width: 100%;
+  }
+  .header-inputs .button {
+    white-space: nowrap;
+  }
+
+  .ai-img {
+    width: 80%;
+    margin: 2rem 0;
+  }
+  .header-inputs input {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    flex-direction: column;
+    padding: 2rem 4rem;
+    padding-top: 8rem;
+    align-items: center;
+  }
+  header h1 {
+    padding-top: 1rem;
+  }
+}
+@media screen and (max-width: 620px) {
+  header {
+    text-align: center;
+  }
+  .header-people {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-people p {
+    margin: 1rem 0;
+  }
+}

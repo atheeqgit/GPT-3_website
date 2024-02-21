@@ -1,0 +1,50 @@
+.possibility-section {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+}
+.possibility-section .possibility-left {
+  width: 40%;
+}
+.possibility-section .possibility-left img {
+  width: 100%;
+}
+.possibility-section .possibility-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.possibility-section .possibility-right h1,
+h4,
+p {
+  margin-bottom: 3rem;
+}
+
+.possibility-section .possibility-right h1 {
+  font-size: 3.6rem;
+  font-weight: 800;
+}
+.possibility-section .possibility-right h4 {
+  color: var(--color-text);
+}
+.possibility-section .possibility-right h3 {
+  color: var(--color-subtext);
+}
+.possibility-section .possibility-right p {
+  color: var(--color-text);
+  line-height: 4rem;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+@media screen and (max-width: 750px) {
+  .possibility-section {
+    flex-direction: column;
+  }
+  .possibility-section .possibility-left {
+    width: 70%;
+  }
+  .possibility-section .possibility-right {
+    width: 100%;
+  }
+}

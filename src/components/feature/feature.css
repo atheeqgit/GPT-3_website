@@ -1,0 +1,20 @@
+.feature {
+  display: flex;
+}
+.feature .feature-title {
+  color: var(--white-color);
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+.feature .feature-title div {
+  width: 38px;
+  height: 3px;
+  background: var(--gradient-bar);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0.25rem;
+}
+.feature .feature-para {
+  color: var(--color-text);
+  font-size: 1.6rem;
+  line-height: 3rem;
+}

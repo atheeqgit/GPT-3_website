@@ -1,0 +1,47 @@
+.cta-section {
+  background-image: var(--gradient-bar);
+  width: -webkit-fill-available;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  gap: 1rem;
+}
+.cta-section div p {
+  color: black;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.cta-section div h1 {
+  color: black;
+  font-weight: 800;
+  font-size: 2.4rem;
+}
+
+.cta-section button {
+  padding: 1.5rem 3rem;
+  white-space: nowrap;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  font-family: inherit;
+  font-size: 1.6rem;
+  cursor: pointer;
+  font-weight: 500;
+  border-radius: 5rem;
+  transition: all 0.2s;
+}
+.cta-section button:hover {
+  background-color: #131313;
+}
+.cta-section button:active {
+  transform: scale(0.9);
+}
+
+@media screen and (max-width: 700px) {
+  .cta-section {
+    gap: 3rem;
+    flex-direction: column;
+  }
+}
